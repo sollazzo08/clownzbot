@@ -1,7 +1,7 @@
 require('dotenv').config();
 const {Discord, Client, MessageAttachment, MessageEmbed, Guild} = require('discord.js');
 const PREFIX = process.env.PREFIX;
-const TOKEN = porcess.env.TOKEN;
+const TOKEN = process.env.TOKEN;
 const client = new Client();
 
 
